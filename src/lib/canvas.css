@@ -1,0 +1,16 @@
+.controls {
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+
+.controls input {
+	position:relative;
+
+
+	width:100px;
+
+	z-index:2000;
+
+	display:block;
+}
