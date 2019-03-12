@@ -1,83 +1,48 @@
 # Customizable timer
-
+ 
 React based graph type timer
 
-## Getting Started
-
-Add each nodes based on your needs
-
-### Prerequisites
+## Requirements
 
 node with npm
 
-### Installing
+## Getting Started
 
-A step by step series of examples that tell you how to get a development env running
+- Add each nodes based on your needs
+- Active part of the timer has purple boundary
+- Nodes are draggable any time
+- All the edges are directional
 
-Say what the step will be
+## Node Usage
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+### Move
+- **Hold down to relocate a node**
+### Start
+- **Click start button to start connected timers**
+### Notification
+- **Tick Notification sound you want**
+- (TODO: allow different types of notificaitons)
+### Count Down
+- **Type amount of time you want**
+- **Pause/Resume is only applicable while timer is running**
+- e.g. 100 => 1:40 ; 100:100 => 01:41:40 ; 10:100:100 => 11:41:40
+### Count Up
+- **Counts up timer**
+- **Pause/Resume is only applicable while timer is running**
+### Count +
+- **This Counter Increments when triggered**
+- **Reset number of counts**
+### Count -
+- **This Counter Decrements when triggered**
+- **Stops when current count is zero**
+- **Reset will reset to set count**
+### TODO List
+- **simple TODO List**
+- Doesn't do anything special when conncted
+### Edge
+- **Click starting node and then click ending node**
+- Selecting background on end point, will remove the edge
+### Delete
+- **Remove nodes or edges on click**
+### Clear
+- **Clears everything on the screen**
